@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*fondo y letra de paginas*/
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #efbac3; }
+
+  /*estilo items para menu y titulo*/
+header h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #efbac3; }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #4d4b4b; }
+
+.header__navbar {
+  margin: 5px;
+  transition: 1s;
+  color: #efbac3; }
+
+  /*subrayado en home*/
+span {
+  background-color: #4d4b4b; }
+
+  /*imagenes y texto*/
+.main__ {
+  margin: 10px 20px 60px 20px; }
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 px 40px;
+  margin-top: 70px;
+  margin-bottom: 500px; }
+
+.div__img {
+  width: 15%; }
+
+.div p {
+  font-size: 20px; }
+
+.main {
+  margin: 200px 20px; }
+
+  /*servicios*/
+.servicio_ {
+  margin-bottom: 300px; }
+
+.carrito_ {
+  display: flex;
+  height: 350px; }
+
+.carrito__ {
+  font-size: 20px;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px;
+  background-color: #4d4b4b;
+  color: #efbac3; }
+
+.carrito__compra {
+  display: flex;
+  justify-content: center;
+  background-color: #4d4b4b;
+  border: 3px solid #333232;
+  color: #ed697f;
+  transition: 3s; }
+
+  /*whatsapp*/
+.img__whatsapp {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 20px;
+  width: 50px; }
+
+  /*metodos de pago*/
+.img__ {
+  margin-top: 50px;
+  margin-bottom: 400px; }
+
+.metododepago {
+  font-size: 20px;
+  color: #ed697f; }
+
+.img__uno {
+  margin-right: 30px; }
+
+.img__dos {
+  margin-right: 30px; }
+
+.img__tres {
+  margin-right: 30px; }
+
+.img__cuatro {
+  margin-right: 30px; }
+
+  /*contacto*/
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 500px; }
+
+.formulario__ {
+  color: #ed697f; }
+
+  /*sobre mi*/
+.sobremi_ {
+  margin-bottom: 100px; }
+
+  /*footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  color: #efbac3;
+  background-color: #333232;
+  height: 150px; }
+
+  /*media*/
+@media (min-width: 320px) {
+
+  /*home*/
+  .div__img {
+    width: 150px;
+    margin-right: 10px; }
+  .div p {
+    font-size: 1rem; 
+    text-align: center;}
+  .div {
+    margin-bottom: 250px;
+  }
+  
+
+    /*servicio*/
+  .carrito_ {
+    display: flex;
+    flex-direction: column; }
+  .carrito__ {
+    font-size: 1rem; }
+  .carrito__compra {
+    transition: 3s; }
+  .main_servicios {
+    margin-top: 650px; }
+  .servicio_ {
+    margin-bottom: 50px; }
+
+    /*metodos de pago*/
+  .main_metododepago {
+    font-size: 1.5rem; }
+  .metododepago {
+    font-size: 1rem; }
+  .img__uno {
+    margin: 10px; }
+  .img__dos {
+    margin: 10px; }
+  .img__tres {
+    margin: 10px; }
+  .img__cuatro {
+    margin: 10px; }
+    /*sobre mi*/
+  .sobremi {
+    font-size: 1.5rem;
+    text-align: center; }
+  .sobremi_ {
+    font-size: 1rem;
+    margin-bottom: 150px;
+    text-align: center; } }
+
+@media (min-width: 1200px) {
+  /*home*/
+  .div__img {
+    width: 200px;
+    margin-right: 20px; }
+  .div p {
+    font-size: 1.5rem; 
+    text-align: center;}
+  .div {
+    margin-top: 20px;
+    margin-bottom: 350px;
+  }
+    /*servicios*/
+  .carrito_ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .carrito__ {
+    height: 250px;
+    width: 320px;
+    font-size: 1.3rem; }
+  .carrito__compra {
+    transition: 3s; }
+  .main_servicios {
+    margin-top: 180px; }
+  .main_servicios h3 {
+    font-size: 2.2rem;
+  text-align: center; }
+  .servicio_ {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 200px; }
+    /*metodos de pago*/
+  .main_metododepago {
+    font-size: 2rem; }
+  .metododepago {
+    font-size: 1.5rem; }
+  .img__uno {
+    margin-right: 30px; }
+  .img__dos {
+    margin-right: 30px; }
+  .img__tres {
+    margin-right: 30px; }
+  .img__cuatro {
+    margin-right: 30px; }
+  /*contacto*/
+  .formulario {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 500px; }
+  /*sobre mi*/
+  .sobremi {
+    font-size: 2rem;
+    text-align: center; }
+  .sobremi_ {
+    font-size: 1.5rem;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    text-align: center; } }
